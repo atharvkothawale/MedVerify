@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Hardhat artifacts & cache
+blockchain/artifacts/
+blockchain/cache/
+
+# Vite production build
+frontend/dist/
+
+# Environment files & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+private_key*
+*.pem
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
